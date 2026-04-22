@@ -68,9 +68,6 @@ After every successful /screen:
 buyer ──feedback──▶ ReputationRegistry (0x8004B663…)
 keyed to each agent's agentId
 
-On top of that, a **Gemini** orchestrator can drive the whole pipeline from
-natural language, using Function Calling to autonomously spend USDC on behalf
-of the user.
 
 Every arrow inside the payment box is a real EIP-3009 USDC authorization
 settled on Arc testnet. One `/screen` call produces **4 onchain payment
@@ -259,6 +256,15 @@ npm run agents:register
 This mints one AgentIdentity NFT per agent on the canonical registry.
 Each NFT stores the agent's role, pricing, and x402 endpoint on-chain.
 Run once — agents are permanently registered at token IDs 2541–2544.
+
+### Canonical Contracts on Arc Testnet
+
+| Contract | Address | Arcscan |
+|----------|---------|---------|
+| USDC | `0x3600000000000000000000000000000000000000` | [View](https://testnet.arcscan.app/address/0x3600000000000000000000000000000000000000) |
+| AgentIdentity Registry | `0x8004A818BFB912233c491871b3d84c89A494BD9e` | [View](https://testnet.arcscan.app/address/0x8004A818BFB912233c491871b3d84c89A494BD9e) |
+| Reputation Registry | `0x8004B663056A597Dffe9eCcC1965A193B7388713` | [View](https://testnet.arcscan.app/address/0x8004B663056A597Dffe9eCcC1965A193B7388713) |
+
 
 ### Run
 bash
