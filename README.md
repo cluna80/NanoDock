@@ -97,9 +97,7 @@ and its own pricing.
 - **Arc** (settlement layer) · **USDC** (value + gas) · **Circle Nanopayments**
 (sub-cent pricing via EIP-3009 + Gateway batching) · **Circle Wallets**
 (per-agent keys) · **x402** (HTTP 402 payment protocol) · **ERC-8004**
-(on-chain identity + reputation for trustless agent discovery) · **Gemini
-Flash / Pro** (natural-language orchestrator with Function Calling)
-
+(on-chain identity + reputation for trustless agent discovery) · 
 ---
 
 ## ERC-8004 trust layer
