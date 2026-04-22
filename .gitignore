@@ -21,3 +21,6 @@ wallets.txt
 .env
 wallets.txt
 tx-log/*.json
+.env
+wallets.txt
+tx-log/*.json
