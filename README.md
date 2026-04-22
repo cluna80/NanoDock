@@ -236,9 +236,10 @@ ARCRPCURL=https://rpc.testnet.arc.network
 Arc testnet chain ID
 ARCCHAINID=5042002
 
-USDC contract on Arc testnet
-Find at: https://docs.circle.com/arc
-USDC_ADDRESS=
+# USDC contract on Arc testnet
+# Canonical vanity address — same on all Arc environments
+USDC_ADDRESS=0x3600000000000000000000000000000000000000
+
 
 ERC-8004 canonical registries (same address on all EVM chains)
 IDENTITYREGISTRY=0x8004A818BFB912233c491871b3d84c89A494BD9e REPUTATIONREGISTRY=0x8004B663056A597Dffe9eCcC1965A193B7388713
