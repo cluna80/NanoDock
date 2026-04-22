@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+
+# Runtime outputs
+tx-log/*.json
+!tx-log/.gitkeep
+
+# Python cache in case drug_discovery code is symlinked in
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+wallets.txt
+.env
+wallets.txt
+tx-log/*.json

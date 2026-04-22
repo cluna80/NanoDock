@@ -1,0 +1,35 @@
+
+> nanodock@0.1.0 register
+> tsx scripts/register-agents.ts
+
+[erc8004] registering 4 agents on Arc testnet
+[erc8004] Identity Registry: 0x8004A818BFB912233c491871b3d84c89A494BD9e
+
+[erc8004] ORCHESTRATOR (0x4d30ccb70a2febe20B3fc74Fa4aDd49b11080355)
+  registration URI: data:application/json;base64,eyJ0eXBlIjoiaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVB...
+  agentId: 2541
+  Arcscan: https://testnet.arcscan.app/tx/(see identity registry tx)
+
+[erc8004] DOCKING_AGENT (0x37615796B78E9f4EFbbECc6aa2ECFb622CD79940)
+  registration URI: data:application/json;base64,eyJ0eXBlIjoiaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVB...
+  agentId: 2542
+  Arcscan: https://testnet.arcscan.app/tx/(see identity registry tx)
+
+[erc8004] ADMET_AGENT (0x7748477d2e25565539C5e4B5c4B6941ac24eF9FD)
+  registration URI: data:application/json;base64,eyJ0eXBlIjoiaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVB...
+  agentId: 2543
+  Arcscan: https://testnet.arcscan.app/tx/(see identity registry tx)
+
+[erc8004] VALIDATOR_AGENT (0x223cc56C7E1c70E4CDF81d4123797fea603Cd3AF)
+  registration URI: data:application/json;base64,eyJ0eXBlIjoiaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVB...
+  agentId: 2544
+  Arcscan: https://testnet.arcscan.app/tx/(see identity registry tx)
+
+# ----- paste the following into your .env -----
+# Generated 2026-04-22T13:09:30.218Z
+ORCHESTRATOR_AGENT_ID=2541
+DOCKING_AGENT_AGENT_ID=2542
+ADMET_AGENT_AGENT_ID=2543
+VALIDATOR_AGENT_AGENT_ID=2544
+
+# 4/4 agents registered successfully.
