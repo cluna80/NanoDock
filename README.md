@@ -88,8 +88,7 @@ charged per molecule with real-time settlement.
 independent economic actor with its own wallet, its own ERC-8004 identity,
 and its own pricing.
 
-**Bonus: Gemini / Google AI Studio** — natural-language orchestrator with
-Function Calling drives all paid endpoints.
+
 
 ---
 
