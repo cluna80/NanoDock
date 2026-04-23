@@ -48,8 +48,7 @@ external agent or orchestrator.
 
 ## What this is
 
-NanoDock lets any client (a researcher, another agent, a Gemini-powered
-orchestrator) submit a SMILES string and a target protein, and receive a
+NanoDock lets any client (a researcher, another agent, orchestrator) submit a SMILES string and a target protein, and receive a
 complete screening report — docking affinity, ADMET profile, and ChEMBL
 novelty check — in exchange for **$0.01 USDC** paid as a Circle Nanopayment
 on Arc.
