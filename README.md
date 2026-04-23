@@ -180,7 +180,6 @@ and its code was authored during the hackathon window (April 20–25, 2026).
 - Multi-wallet agent architecture + Arc chain helpers (`src/payments/wallet.ts`)
 - All four agent endpoints + orchestrator fan-out (`src/server.ts`, `src/agents/*`)
 - x402 client + bulk demo runner (`src/client.ts`, `scripts/run-demo.ts`)
-- Gemini Function-Calling orchestration layer (`src/agents/orchestrator.ts`)
 - ERC-8004 registration + reputation scripts (`scripts/register-agents.ts`, `scripts/run-feedback.ts`)
 
 **Pre-existing dependency (separate repo, MIT-licensed):**
